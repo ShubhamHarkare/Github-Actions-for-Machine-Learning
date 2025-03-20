@@ -19,12 +19,10 @@ jobs:
       - name: Install Packages
         run: pip install --upgrade pip && pip install -r requirements.txt
       - name: Format
-        run: black *.py
+        run: black *  .py
       - name: Train
         run: python train.py
       - name: Evaluation
-        env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: | 
           echo "## Model Metrics" > report.md
           cat metrics.txt >> report.md
