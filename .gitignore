@@ -1,3 +1,8 @@
+# Some of my own files
+model_results.png
+bank_pipeline.skops
+metrics.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
