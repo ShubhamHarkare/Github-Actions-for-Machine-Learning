@@ -2,6 +2,7 @@
 model_results.png
 bank_pipeline.skops
 metrics.txt
+anaconda_projects
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
