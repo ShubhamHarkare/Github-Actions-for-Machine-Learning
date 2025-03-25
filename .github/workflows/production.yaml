@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  pull request:
+  pull_git request:
     branches:
       - main
 
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-        
+
       # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v2
